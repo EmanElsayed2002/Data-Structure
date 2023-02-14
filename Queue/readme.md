@@ -25,13 +25,3 @@
 
 
 
-## Complexity
-| Operation | Complexity |
-| --- | --- |
-| enqueue | O(1) |
-| dequeue | O(1) |
-| isEmpty | O(1) |
-| peek | O(1) |
-| Search | O(n) |
-| Access | O(n) |
-
