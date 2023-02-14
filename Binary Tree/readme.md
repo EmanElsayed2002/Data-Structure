@@ -1,7 +1,6 @@
 # Binary Tree
 ## Binary Tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child and the left node always less than the Root node and the right node always greater than the Root node.
 
-[![Binary Tree](https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg)](https://en.wikipedia.org/wiki/Binary_tree#/media/File:Binary_tree.svg)
 
 ## Binary Tree Travesal
 - Inorder Traversal
