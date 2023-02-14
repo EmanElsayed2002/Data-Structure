@@ -1,8 +1,6 @@
 # Linked List 
 ## What is Linked List?
-A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
-![Linked List](https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2013/03/Linkedlist.png)
-
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers.
 ## Types of Linked List
 1. Singly Linked List
 2. Doubly Linked List
@@ -11,18 +9,13 @@ A linked list is a linear data structure, in which the elements are not stored a
 ## Singly Linked List
 A linked list is said to be singly linked list if there is only one link between any two nodes. A singly linked list can be traversed in only forward direction. A node of singly linked list contains two parts: data and pointer to the next node. The last node points to null. The entry point into a singly linked list is called the head of the list. If the linked list is empty, then the value of the head is null.
 
-![Singly Linked List](https://media.geeksforgeeks.org/wp-content/uploads/Linkedlist.png)
-
 ## Doubly Linked List
 A doubly linked list contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list. Using the previous pointer, it is possible to traverse the list in both forward and backward direction. A node of doubly linked list contains three parts: data, pointer to the next node and pointer to the previous node. The last node points to null. The entry point into a doubly linked list is called the head of the list. If the linked list is empty, then the value of the head is null.
 
-![Doubly Linked List](https://media.geeksforgeeks.org/wp-content/uploads/DLL1.png)
 
 ## Circular Linked List
 A circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. 
 A node of circular linked list contains two parts: data and pointer to the next node. The last node points to the first node as next and the first node points to the last node as previous. It is also called circular list or ring list.
-
-![Circular Linked List](https://media.geeksforgeeks.org/wp-content/uploads/circularlinkedlist.png)
 
 
 ## Advantages over arrays
@@ -35,13 +28,6 @@ A node of circular linked list contains two parts: data and pointer to the next 
 3. Not cache friendly. Since array elements are contiguous locations, there is locality of reference which is not there in case of linked lists.
 
 
-## Complexity of operations on Linked List
-| Operation | Complexity |
-| --- | --- |
-| Insertion | O(1) |
-| Deletion | O(1) |
-| Search | O(n) |
-| Space | O(n) |
 
 
 
